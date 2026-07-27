@@ -1,0 +1,31 @@
+{
+  "name": "twilio-ai-voice-receptionist",
+  "version": "1.0.0",
+  "description": "AI voice receptionist built on Twilio + Claude. Handles inbound calls, understands natural language, books appointments, sends SMS confirmations, and posts call summaries to n8n/CRM.",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js",
+    "test": "node src/test/simulate_call.js"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.27.0",
+    "axios": "^1.7.2",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "twilio": "^5.2.2",
+    "uuid": "^10.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "keywords": [
+    "twilio", "claude", "ai", "voice", "receptionist", "ivr",
+    "n8n", "appointment-booking", "voice-agent"
+  ],
+  "author": "Rakibul Hasan <rakibul.ai.work@gmail.com>",
+  "license": "MIT"
+}
