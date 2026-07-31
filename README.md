@@ -196,4 +196,4 @@ Compare to: a part-time receptionist at $15/hour answering 5 calls/hour = **$30 
 
 ---
 
-*Built by [Rakibul Hasan](https://contra.com/rakibul_hasan_7gp46knu) · github.com/rakibul-aidev*
+*Built by [Rakibul Hasan](https://contra.com/rakibul_aidev) · github.com/rakibul-aidev*
